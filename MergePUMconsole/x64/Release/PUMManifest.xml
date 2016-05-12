@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?>
+<CoreConfig>
+  <Config name="AutoLoadFolderPlugins" value="true"/>
+  <Config name="PluginPath" value="PlugIns"/>
+  <Config name="AppName" value="PUM"/>
+  <Config name="AppVersion" value="2.0"/>
+  <Config name="AppDeveloper" value="北京大学人机交互与多媒体实验室"/>
+  <AutoLoadedPlugins>
+    <Plugin name="PlugIn_IO_Obj"/>
+    <Plugin name="PlugIn_IO_3ds"/>
+    <Plugin name="PlugIn_IO_Info3D"/>
+    <Plugin name="PlugIn_IO_stl"/>
+    <Plugin name="PlugIn_Alg_ProgressiveMesh"/>
+    <Plugin name="PlugIn_Alg_Triangulate"/>
+    <Plugin name="PlugIn_Alg_Regularize"/>
+    <Plugin name="PlugIn_IO_Integrate"/>
+    <Plugin name="PlugIn_Alg_FeatureDetect"/>
+    <Plugin name="PlugIn_Func_ShapeManipulation"/>
+    <Plugin name="Plugin_Alg_Crossing"/>
+    <Plugin name="PlugIn_Alg_Sweep"/>
+    <Plugin name="PlugIn_Alg_HilvlDeform"/>
+	<Plugin name="PlugIn_Func_ModelPrePro"/>
+    <Plugin name="PlugIn_Alg_Simplification"/>
+	<Plugin name="PlugIn_Alg_IntersectionCurves"/>
+    <Plugin name="PlugIn_Func_CAE"/>
+	<Plugin name="PlugIn_Func_SkeletonDriven"/>
+	<Plugin name="PlugIn_Alg_MeshRepair"/>
+  </AutoLoadedPlugins>
+</CoreConfig>

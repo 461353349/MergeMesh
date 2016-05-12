@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plugin name="IO插件OBJ" version="1.0">
+  <Description>IO插件OBJ</Description>
+  <Prerequisites>
+  </Prerequisites>
+  <Module>PlugIn_IO_Obj.dll</Module>
+  <UISection>
+    <!--
+    <CommandGroup type="menu" style="top" name="可视化">
+      <item type="command" name="风暴潮" OnCommand="OnVolume" OnUpdate="" />
+      <item type="command" name="海洋洋流分布" OnCommand="OnFlow" OnUpdate="" />
+      <item type="command" name="海洋盐度分布" OnCommand="OnSalt" OnUpdate="" />
+      <item type="command" name="海洋温度分布" OnCommand="OnTemperature" OnUpdate="" />
+      <item type="command" name="关闭可视化" OnCommand="OnCloseVis" OnUpdate="" />
+    </CommandGroup>-->
+  </UISection>
+  <ParameterSection>
+    <param name="type" value="io" />
+    <param name="extension" value="obj,mtl" />
+    <param name="filedescription" value="Object model" />
+  </ParameterSection>
+</plugin>
